@@ -1,0 +1,45 @@
+# AI service domains for Clash
+# Updated: 2026-04-07
+# Notes:
+# - "oprnrouter" is treated as OpenRouter.
+# - This list is intentionally conservative: core product/API domains first,
+#   plus a few vendor-documented auxiliary domains that are commonly required.
+
+# OpenAI / ChatGPT
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Anthropic / Claude
+DOMAIN-KEYWORD,anthropic
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.ai
+
+# Google AI / Gemini
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# Cursor
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+# Google Antigravity
+DOMAIN-SUFFIX,antigravity.google
+
+# OpenCode
+DOMAIN-SUFFIX,opencode.ai
+
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
