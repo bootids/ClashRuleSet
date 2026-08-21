@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-08-18
+# Updated: 2026-08-21
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -12,18 +12,15 @@ DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,crixet.com
-DOMAIN-SUFFIX,featureassets.org
-DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openaimerge.com
-DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,statsig.com
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,workos.com
-DOMAIN-SUFFIX,workoscdn.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
 DOMAIN,workos.imgix.net
 DOMAIN,chatgpt.livekit.cloud
 DOMAIN,host.livekit.cloud
@@ -98,19 +95,12 @@ DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
 
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,individual.githubcopilot.com
-DOMAIN-SUFFIX,business.githubcopilot.com
-DOMAIN-SUFFIX,enterprise.githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,origin-tracker.githubusercontent.com
 DOMAIN,default.exp-tas.com
 DOMAIN,collector.github.com
 DOMAIN-SUFFIX,copilot-reports.github.com
-DOMAIN-SUFFIX,b01.azurefd.net
-DOMAIN,copilotprodattachments.blob.core.windows.net
 
 # Microsoft Copilot
 DOMAIN-SUFFIX,copilot.com
