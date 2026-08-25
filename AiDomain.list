@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-08-21
+# Updated: 2026-08-25
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -87,11 +87,15 @@ DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 
 # Cursor
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursorapi.com
-DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN,api2.cursor.sh
+DOMAIN,api3.cursor.sh
+DOMAIN,api4.cursor.sh
+DOMAIN-SUFFIX,api5.cursor.sh
+DOMAIN-SUFFIX,authentication.cursor.sh
+DOMAIN,authenticator.cursor.sh
+DOMAIN,marketplace.cursorapi.com
+DOMAIN,cursor-cdn.com
+DOMAIN,downloads.cursor.com
 
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
