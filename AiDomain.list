@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-08-25
+# Updated: 2026-08-28
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -27,7 +27,7 @@ DOMAIN,host.livekit.cloud
 DOMAIN,turn.livekit.cloud
 
 # Anthropic / Claude
-DOMAIN-KEYWORD,anthropic
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.ai
@@ -91,10 +91,10 @@ DOMAIN,api2.cursor.sh
 DOMAIN,api3.cursor.sh
 DOMAIN,api4.cursor.sh
 DOMAIN-SUFFIX,api5.cursor.sh
-DOMAIN-SUFFIX,authentication.cursor.sh
+DOMAIN,authenticate.cursor.sh
 DOMAIN,authenticator.cursor.sh
 DOMAIN,marketplace.cursorapi.com
-DOMAIN,cursor-cdn.com
+DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN,downloads.cursor.com
 
 # GitHub Copilot
@@ -110,6 +110,8 @@ DOMAIN-SUFFIX,copilot-reports.github.com
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cloud.microsoft
+# Copilot Cowork runtime
+DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
 
 # xAI / Grok
 DOMAIN-SUFFIX,x.ai
@@ -167,4 +169,5 @@ DOMAIN-SUFFIX,openrouter.ai
 # JetBrains
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN,grazie.aws.intellij.net
+DOMAIN,api.app.prod.grazie.aws.intellij.net
 DOMAIN-SUFFIX,jetbrains.ai
