@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-08-28
+# Updated: 2026-09-04
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -91,11 +91,19 @@ DOMAIN,api2.cursor.sh
 DOMAIN,api3.cursor.sh
 DOMAIN,api4.cursor.sh
 DOMAIN-SUFFIX,api5.cursor.sh
+DOMAIN,repo42.cursor.sh
+DOMAIN,us-asia.gcpp.cursor.sh
+DOMAIN,us-eu.gcpp.cursor.sh
+DOMAIN,us-only.gcpp.cursor.sh
 DOMAIN,authenticate.cursor.sh
 DOMAIN,authenticator.cursor.sh
+DOMAIN,prod.authentication.cursor.sh
+DOMAIN,authentication.cursor.sh
 DOMAIN,marketplace.cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN,downloads.cursor.com
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
 
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
@@ -107,8 +115,10 @@ DOMAIN,collector.github.com
 DOMAIN-SUFFIX,copilot-reports.github.com
 
 # Microsoft Copilot
+DOMAIN-SUFFIX,copilot.ai
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,m365copilot.com
 DOMAIN-SUFFIX,cloud.microsoft
 # Copilot Cowork runtime
 DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
