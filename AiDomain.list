@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-09-04
+# Updated: 2026-09-11
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -180,4 +180,5 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN,grazie.aws.intellij.net
 DOMAIN,api.app.prod.grazie.aws.intellij.net
+DOMAIN,api.jetbrains.cloud
 DOMAIN-SUFFIX,jetbrains.ai
