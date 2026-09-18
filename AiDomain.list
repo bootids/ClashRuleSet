@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-09-11
+# Updated: 2026-09-18
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -66,6 +66,7 @@ DOMAIN-SUFFIX,antigravity.googleapis.com
 DOMAIN-SUFFIX,antigravity-pa.googleapis.com
 DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+DOMAIN-SUFFIX,geminicloudassist.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,notebooklm.googleapis.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
@@ -92,6 +93,7 @@ DOMAIN,api3.cursor.sh
 DOMAIN,api4.cursor.sh
 DOMAIN-SUFFIX,api5.cursor.sh
 DOMAIN,repo42.cursor.sh
+DOMAIN,adminportal42.cursor.sh
 DOMAIN,us-asia.gcpp.cursor.sh
 DOMAIN,us-eu.gcpp.cursor.sh
 DOMAIN,us-only.gcpp.cursor.sh
