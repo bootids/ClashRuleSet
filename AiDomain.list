@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-09-18
+# Updated: 2026-09-29
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -51,8 +51,10 @@ DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,notebook.google
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
@@ -101,6 +103,7 @@ DOMAIN,authenticate.cursor.sh
 DOMAIN,authenticator.cursor.sh
 DOMAIN,prod.authentication.cursor.sh
 DOMAIN,authentication.cursor.sh
+DOMAIN,accounts.spacex.ai
 DOMAIN,marketplace.cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorvm.com
@@ -130,6 +133,8 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN,grok.x.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grok.me
 
 # Mistral
 DOMAIN-SUFFIX,mistral.ai
@@ -148,6 +153,7 @@ DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
