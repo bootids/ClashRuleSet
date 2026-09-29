@@ -89,27 +89,15 @@ DOMAIN-SUFFIX,pplx.ai
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 
-# Cursor
-DOMAIN,api2.cursor.sh
-DOMAIN,api3.cursor.sh
-DOMAIN,api4.cursor.sh
-DOMAIN-SUFFIX,api5.cursor.sh
-DOMAIN,repo42.cursor.sh
-DOMAIN,adminportal42.cursor.sh
-DOMAIN,us-asia.gcpp.cursor.sh
-DOMAIN,us-eu.gcpp.cursor.sh
-DOMAIN,us-only.gcpp.cursor.sh
-DOMAIN,authenticate.cursor.sh
-DOMAIN,authenticator.cursor.sh
-DOMAIN,prod.authentication.cursor.sh
-DOMAIN,authentication.cursor.sh
-DOMAIN,accounts.spacex.ai
-DOMAIN,marketplace.cursorapi.com
+# Cursor / Grok Bot
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorvm.com
 DOMAIN,downloads.cursor.com
 DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
-
+DOMAIN,accounts.spacex.ai
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
