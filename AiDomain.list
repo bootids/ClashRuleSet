@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-09-29
+# Updated: 2026-10-30
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -8,8 +8,9 @@
 #   included here by default.
 
 # OpenAI / ChatGPT
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -19,6 +20,7 @@ DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN,cdn.workos.com
 DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
 DOMAIN,setup.workos.com
 DOMAIN,images.workoscdn.com
 DOMAIN,workos.imgix.net
@@ -31,6 +33,9 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.site
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -45,6 +50,8 @@ DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
@@ -72,6 +79,7 @@ DOMAIN-SUFFIX,geminicloudassist.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,notebooklm.googleapis.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
+DOMAIN,labstailwind.pa.googleapis.com
 DOMAIN,geller-pa.googleapis.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN,robinfrontend-pa.googleapis.com
@@ -95,9 +103,9 @@ DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorvm.com
-DOMAIN,downloads.cursor.com
 DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
 DOMAIN,accounts.spacex.ai
+
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
@@ -112,7 +120,7 @@ DOMAIN-SUFFIX,copilot.ai
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,m365copilot.com
-DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 # Copilot Cowork runtime
 DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
 
@@ -142,6 +150,7 @@ DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
@@ -168,6 +177,10 @@ DOMAIN-SUFFIX,codeiumdata.com
 
 # OpenCode
 DOMAIN-SUFFIX,opencode.ai
+
+# OpenClaw / ClawHub
+DOMAIN-SUFFIX,openclaw.ai
+DOMAIN-SUFFIX,clawhub.ai
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
