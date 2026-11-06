@@ -1,5 +1,5 @@
 # AI service domains for Clash
-# Updated: 2026-10-30
+# Updated: 2026-11-06
 # Notes:
 # - "openrouter" is treated as OpenRouter.
 # - This list is intentionally conservative: core product/API domains first,
@@ -52,6 +52,10 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
+# Gemini in Google Workspace (Gmail / Docs / Drive)
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
@@ -111,6 +115,7 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,default.exp-tas.com
 DOMAIN,collector.github.com
 DOMAIN-SUFFIX,copilot-reports.github.com
@@ -154,6 +159,10 @@ DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
+
+# AI media creation
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,suno.com
 
 # AI app builders / coding agents
 DOMAIN-SUFFIX,bolt.new
